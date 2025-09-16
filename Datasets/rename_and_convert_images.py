@@ -1,6 +1,7 @@
 import os
 from PIL import Image
 import re
+Image.MAX_IMAGE_PIXELS = None
 
 def rename_and_convert_images(folder_path, prefix="image", target_ext=".jpg"):
     files = os.listdir(folder_path)
