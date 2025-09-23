@@ -5,7 +5,7 @@ Image.MAX_IMAGE_PIXELS = None
 
 def rename_and_convert_images(folder_path, prefix="image", target_ext=".jpg"):
     files = os.listdir(folder_path)
-    image_files = [f for f in files if f.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.gif'))]
+    image_files = [f for f in files if f.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.gif', 'avif'))]
     image_files.sort()
 
     pattern = re.compile(rf"^{prefix}_(\d+){re.escape(target_ext)}$", re.IGNORECASE)
