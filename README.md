@@ -34,12 +34,61 @@ This repository contains the implementation of a deep learning model for **vehic
 ```
 
 ## Features
-- Vehicle orientation classification with 7 classes:
-  - `front`, `front-left`, `front-right`, `rear`, `rear-left`, `rear-right`, `high-angle-view`
-- Preprocessing and data augmentation.
-- Model training with **transfer learning** (fine-tuning).
-- Evaluation with precision, recall, F1-score, and confusion matrix.
-- Exported trained model (`.keras`).
+- Vehicle orientation classification using **ResNet50** with fine-tuning  
+- Data augmentation and preprocessing pipeline  
+- Class balancing with `compute_class_weight`  
+- Training & fine-tuning with **callbacks** (EarlyStopping, ReduceLROnPlateau, ModelCheckpoint)  
+- Evaluation on both **AutoTest** and **ManualTest** sets
+
+## Review Datasets
+### Front
+<p align="center">
+  <img src="Datasets/Train/front/front_2.jpg" alt="Front" width="250"/>
+  <img src="Datasets/Train/front/front_23.jpg" alt="Front" width="250"/>
+  <img src="Datasets/Train/front/front_57.jpg" alt="Front" width="250"/>
+</p>
+
+### Front-left
+<p align="center">
+  <img src="Datasets/Train/front_left/front_left_2.jpg" alt="Front-left" width="250"/>
+  <img src="Datasets/Train/front_left/front_left_4.jpg" alt="Front-left" width="250"/>
+  <img src="Datasets/Train/front_left/front_left_32.jpg" alt="Front-left" width="250"/>
+</p>
+
+### Front-right
+<p align="center">
+  <img src="Datasets/Train/front_right/front_right_1.jpg" alt="Front-right" width="250"/>
+  <img src="Datasets/Train/front_right/front_right_46.jpg" alt="Front-right" width="250"/>
+  <img src="Datasets/Train/front_right/front_right_279.jpg" alt="Front-right" width="250"/>
+</p>
+
+### Rear
+<p align="center">
+  <img src="Datasets/Train/rear/rear_2.jpg" alt="Rear" width="250"/>
+  <img src="Datasets/Train/rear/rear_19.jpg" alt="Rear" width="250"/>
+  <img src="Datasets/Train/rear/rear_253.jpg" alt="Rear" width="250"/>
+</p>
+
+### Rear-left
+<p align="center">
+  <img src="Datasets/Train/rear_left/rear_left_4.jpg" alt="Rear-left" width="250"/>
+  <img src="Datasets/Train/rear_left/rear_left_20.jpg" alt="Rear-left" width="250"/>
+  <img src="Datasets/Train/rear_left/rear_left_47.jpg" alt="Rear-left" width="250"/>
+</p>
+
+### Rear-right
+<p align="center">
+  <img src="Datasets/Train/rear_right/rear_right_20.jpg" alt="Rear-right" width="250"/>
+  <img src="Datasets/Train/rear_right/rear_right_24.jpg" alt="Rear-right" width="250"/>
+  <img src="Datasets/Train/rear_right/rear_right_54.jpg" alt="Rear-right" width="250"/>
+</p>
+
+### High-angle-view
+<p align="center">
+  <img src="Datasets/Train/high_angle_view/high_angle_view_2.jpg" alt="High-angle-view" width="250"/>
+  <img src="Datasets/Train/high_angle_view/high_angle_view_30.jpg" alt="High-angle-view" width="250"/>
+  <img src="Datasets/Train/high_angle_view/high_angle_view_103.jpg" alt="High-angle-view" width="250"/>
+</p>
 
 ## Installation
 
