@@ -3,7 +3,7 @@
 
 This repository contains the implementation of a deep learning model for **vehicle orientation classification** using TensorFlow and Keras.
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 ├── Datasets
@@ -33,7 +33,7 @@ This repository contains the implementation of a deep learning model for **vehic
 └── vehicle_orientation_model.keras
 ```
 
-## 🚀 Features
+## Features
 - Vehicle orientation classification with 7 classes:
   - `front`, `front-left`, `front-right`, `rear`, `rear-left`, `rear-right`, `high-angle-view`
 - Preprocessing and data augmentation.
@@ -41,13 +41,13 @@ This repository contains the implementation of a deep learning model for **vehic
 - Evaluation with precision, recall, F1-score, and confusion matrix.
 - Exported trained model (`.keras`).
 
-## 🛠 Installation
+## Installation
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 📊 Usage
+## Usage
 
 1. Train the model:
    ```bash
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 2. Evaluate on test datasets (`AutoTest`, `ManualTest`).
 3. Check the results in `Sample Output.csv`.
 
-## 📌 Requirements
+## Requirements
 - Python 3.12.11
 - TensorFlow 2.19.0
 - OpenCV 4.12.0
@@ -66,9 +66,9 @@ pip install -r requirements.txt
 - Matplotlib 3.10.0
 - Seaborn 0.13.2
 
-## 📑 Report
+## Report
 Detailed documentation can be found in **Vehicle_Orientation_Classification_System_Report.docx**.
 
 ---
 
-📌 Developed for academic and research purposes.
+Developed for academic and research purposes by Pham Phuoc Minh Hieu.
