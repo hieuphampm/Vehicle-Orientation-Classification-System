@@ -1,0 +1,13 @@
+# Python version
+python==3.12.11
+
+# Libraries
+opencv-python==4.12.0
+numpy==2.0.2
+pandas==2.2.2
+tensorflow==2.19.0
+scikit-learn==1.6.1
+
+# Visualization
+matplotlib==3.10.0
+seaborn==0.13.2
