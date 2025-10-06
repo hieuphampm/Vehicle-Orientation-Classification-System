@@ -57,8 +57,8 @@ This repository contains the implementation of a deep learning model for **vehic
 
 ### Front-right
 <p align="center">
-  <img src="Datasets/Train/front_right/front_right_1.jpg" alt="Front-right" width="250"/>
-  <img src="Datasets/Train/front_right/front_right_46.jpg" alt="Front-right" width="250"/>
+  <img src="Datasets/Train/front_right/front_right_10.jpg" alt="Front-right" width="250"/>
+  <img src="Datasets/Train/front_right/front_right_102.jpg" alt="Front-right" width="250"/>
   <img src="Datasets/Train/front_right/front_right_279.jpg" alt="Front-right" width="250"/>
 </p>
 
@@ -79,7 +79,7 @@ This repository contains the implementation of a deep learning model for **vehic
 ### Rear-right
 <p align="center">
   <img src="Datasets/Train/rear_right/rear_right_20.jpg" alt="Rear-right" width="250"/>
-  <img src="Datasets/Train/rear_right/rear_right_24.jpg" alt="Rear-right" width="250"/>
+  <img src="Datasets/Train/rear_right/rear_right_240.jpg" alt="Rear-right" width="250"/>
   <img src="Datasets/Train/rear_right/rear_right_54.jpg" alt="Rear-right" width="250"/>
 </p>
 
